@@ -4,45 +4,40 @@
 }
 
 .showcase{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 700px;
-    background-color: hsl(212, 45%, 89%);
+    background-color:hsl(220, 15%, 55%)
   }
 
 .showcase .main{
-    padding-top: 100px;
-}
-
-.main{
-    width: 100%;
-    border-radius: 30%;
-    height: auto;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
-    text-align: center;
 }
 
 .showcase .main img{
-    border-radius: 7px;
-    width: 20%;
-    height: auto;
+    border-radius: 10px;
+    padding-top: 25px;
+    width: 300px;
 }
 
 .showcase .main h2{
     text-align: center;
+    width: 150px;
+    margin: 5px;
     font-size: 15px;
-    width: 15%;
-    padding-top: 10px;
-   padding-left: 570px;
     color:hsl(218, 44%, 22%);
 }
 
 .showcase .main p{
-    padding: 15px;
-    padding-top: 10px;
-    text-align: center;
     color:  hsl(137, 3%, 44%);
-   padding-left: 570px;
     font-size: 15px;
-    width: 15%;
-    line-height: 10px;
+    text-align: center;
+    width: 200px;
 }
