@@ -12,25 +12,25 @@
   }
 
 .showcase .main{
-    width: 350px;
+    width: 300px;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 30px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: hsl(0, 0%, 100%);
 }
 
-.showcase .main img{
-    border-radius: 10px;
-    padding-top: 25px;
-    width: 300px;
+ .main img{
+    border-radius: 20px;
+    width: 250px;
 }
 
 .showcase .main h2{
     text-align: center;
     width: 150px;
-    margin: 5px;
+    margin: 10px;
     font-size: 15px;
     color:hsl(218, 44%, 22%);
 }
